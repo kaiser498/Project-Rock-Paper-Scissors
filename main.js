@@ -51,25 +51,6 @@ function playGame() {
 
   playRound(getHumanChoice(), getComputerChoice());
   console.log("humanScore: " + humanScore, "computerScore: " + computerScore);
-
-  playRound(getHumanChoice(), getComputerChoice());
-  console.log("humanScore: " + humanScore, "computerScore: " + computerScore);
-
-  playRound(getHumanChoice(), getComputerChoice());
-  console.log("humanScore: " + humanScore, "computerScore: " + computerScore);
-
-  playRound(getHumanChoice(), getComputerChoice());
-  console.log("humanScore: " + humanScore, "computerScore: " + computerScore);
-
-  playRound(getHumanChoice(), getComputerChoice());
-  console.log("humanScore: " + humanScore, "computerScore: " + computerScore);
-
-  if (humanScore > computerScore) {
-    message = "Humans now reigns over the computer.";
-  } else {
-    message = "The computer now reigns over humans.";
-  }
-  console.log(message);
 }
 
 playGame();
